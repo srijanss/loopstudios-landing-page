@@ -1,0 +1,42 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-dark-grey: hsl(0, 0%, 55%);
+  --color-very-dark-grey: hsl(0, 0%, 41%);
+  --primary-font-family: "Alata", sans-serif;
+  --secondary-font-family: "Josefin Sans", sans-serif;
+  --default-font-size: 16px;
+  --fw-light: 300;
+  --fw-regular: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: var(--primary-font-family);
+  font-variation-settings: "wght" var(--fw-regular);
+  font-size: var(--default-font-size);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-inline-size: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+}

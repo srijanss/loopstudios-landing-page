@@ -1,0 +1,22 @@
+{
+  "plugins": ["stylelint-scss"],
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "import-notation": "string",
+    "color-function-notation": "legacy",
+    "hue-degree-notation": "number",
+    "at-rule-no-unknown": null,
+    "custom-property-empty-line-before": null,
+    "property-no-vendor-prefix": null,
+    "media-feature-range-notation": "prefix",
+    "selector-class-pattern": [
+      "^[a-z0-9\\-]+(__[a-z0-9\\-]+)?(--[a-z0-9\\-]+)?$",
+      {
+        "resolveNestedSelectors": true,
+        "message": "Selector should use BEM naming conventions (selector-class-pattern)"
+      }
+    ],
+    "scss/at-rule-no-unknown": true,
+    "scss/selector-no-redundant-nesting-selector": true
+  }
+}
