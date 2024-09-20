@@ -18,6 +18,7 @@
 
 body {
   width: 100%;
+  min-height: 100vh;
   font-family: var(--primary-font-family);
   font-variation-settings: "wght" var(--fw-regular);
   font-size: var(--default-font-size);
@@ -38,5 +39,8 @@ a {
 
 main {
   width: 100%;
-  min-height: 100vh;
+}
+
+footer {
+  display: block;
 }
