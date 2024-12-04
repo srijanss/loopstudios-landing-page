@@ -5,6 +5,8 @@
     "import-notation": "string",
     "color-function-notation": "legacy",
     "hue-degree-notation": "number",
+    "rule-empty-line-before": null,
+    "comment-empty-line-before": null,
     "at-rule-no-unknown": null,
     "custom-property-empty-line-before": null,
     "property-no-vendor-prefix": null,
